@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.registration-form {
+    height: 630px;
+    width: 400px;
+    margin-left: 33%;
+    background-color: #91cfde;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    border-radius: 5%;
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
+   background: transparent;
+}
+.hobbies {
+    color: rgb(4, 251, 169);
+}
+
+#hobbies {
+    color:rgb(237, 4, 4);
+}
+
+#button {
+    color: red;
+    background-color: rgb(219, 219, 81);
+}
